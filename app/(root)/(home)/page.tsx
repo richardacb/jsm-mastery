@@ -1,6 +1,5 @@
 import Filters from "@/components/Filters";
 import SearchForm from "@/components/SearchForm";
-import { Button } from "@/components/ui/button";
 
 export default function Page() {
     return (

@@ -131,7 +131,6 @@
 }
 
 .frame {
-  border-style: inset;
   border: 1px solid #40a0ff;
   position: relative;
 }
