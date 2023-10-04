@@ -1,6 +1,7 @@
 'use client'
 
 import { useState } from "react";
+import {Button} from "@/components/ui/button";
 
 const links = [
     'All',
@@ -21,13 +22,13 @@ const Filters = () => {
     return (
         <ul className="text-white-800 body-text no-scrollbar flex w-full max-wfull gap-2 overflow-auto py-12 sm:max-w-2xl">
             {links.map((link) => (
-                <button
+                <Button
                     key={link}
                     onClick={() => handleFilter(link)}
                     className={`${active === link ? "gradient_blue-purple" : ""} whitespace-nowrap rounded-lg px-8 py-2.5 capitalize`}
                 >
                     {link}
-                </button>
+                </Button>
             ))}
         </ul>
     );
