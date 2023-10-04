@@ -207,6 +207,9 @@
   background: linear-gradient(90deg, #4ca5ff 0%, #b573f8 100%);
 }
 
+.gradient_blue {
+  background: linear-gradient(90deg, #4ca5ff 0%, #73e0f8 100%);
+}
 .text-gradient_blue {
   background: linear-gradient(90deg, #4c73ff 2.34%, #389bff 100.78%);
   -webkit-background-clip: text;
